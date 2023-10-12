@@ -1,0 +1,124 @@
+.hero-container {
+    padding-top          : 100px;
+    padding-left         : 5vw;
+    padding-right        : 5vw;
+    height               : 100vh;
+    width                : 100vw;
+    background-image           : linear-gradient(90deg, #00a6ffc7 5.32%, #0c79b37f 94.32%), url('../images/icon/web\ site\ .png');
+    /* background        : var(--bg-main-color); */
+    /* background        : linear-gradient(90deg, #00a6ff 5.32%, #0c79b3 94.32%); */
+    background-size      : cover;
+    /* Ensure the image covers the entire viewport */
+    background-attachment: fixed;
+}
+
+.hr-row {
+    height         : 100%;
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.hr-row-left {
+    display       : flex;
+    flex-direction: column;
+    gap           : 30px;
+}
+
+.hr-row-left-title {
+    font-size: 60px;
+    color    : white;
+}
+
+.hr-row-left-desc {
+    font-size: 16px;
+    color    : white;
+}
+
+
+.hr-row-left-button {
+    position       : relative;
+    overflow       : hidden;
+    font-weight    : 700;
+    background     : linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+    backdrop-filter: blur(4px);
+    padding        : 5px;
+    border-radius  : 10px;
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: flex-start;
+    border         : 1px solid rgba(255, 255, 255, 0.1);
+    width          : 180px;
+    height         : 60px;
+    text-decoration: none;
+}
+
+.hr-row-left-button span {
+    background     : linear-gradient(264.28deg, #6bd0ff -38.2%, #91C8E4 103.12%);
+    padding        : 10px 20px;
+    border-radius  : 10px;
+    color          : #fff;
+    width          : 100%;
+    transition     : all 0.3s ease-in-out;
+    position       : relative;
+    overflow       : hidden;
+    height         : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    font-size      : 18px;
+
+}
+
+.hr-row-left-button span::after {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+    content   : "";
+    height    : 200%;
+    left      : -210%;
+    opacity   : 0;
+    position  : absolute;
+    top       : -50%;
+    transition: all 0.7s ease 0s;
+    width     : 200%;
+}
+
+.hr-row-left-button:hover span::after {
+    left                      : -30%;
+    opacity                   : 1;
+    top                       : -20%;
+    transition-duration       : 0.7s, 0.7s, 0.15s;
+    transition-property       : left, top, opacity;
+    transition-timing-function: linear;
+}
+
+
+
+.hr-row-left-title span.s1 {
+    background             : linear-gradient(264.28deg, #6bd0ff -38.2%, #91C8E4 103.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position               : relative;
+}
+
+.hr-row-left-title span.s1::after {
+    content   : '';
+    width     : 317.39px;
+    height    : 64.77px;
+    position  : absolute;
+    bottom    : -57px;
+    left      : -63px;
+    background: url('../../assets/images/icon/Line (2).png') no-repeat;
+}
+
+
+.hr-row-right {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.hr-row-right-image {
+    /* height: 60vh; */
+    width: 40vw;
+}
