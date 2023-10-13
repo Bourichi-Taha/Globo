@@ -15,6 +15,7 @@
     backdrop-filter        : blur(5.9px);
     -webkit-backdrop-filter: blur(5.9px);
     z-index: 5;
+    overflow: hidden;
 }
 
 .navbar-container.scroll {
@@ -167,3 +168,73 @@
     transition-property: left, top, opacity;
     transition-timing-function: linear;
 }
+
+.nc-right-burger.MuiSvgIcon-root{
+    display: none;
+    font-size: 50px;
+    color: #F6F7EB;
+    cursor: pointer;
+}
+
+.navbar-container-mobile{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .nc-left-nav-list{
+        display: none;
+    }
+    .nc-right-button{
+        display: none;
+    }
+    .nc-right-burger.MuiSvgIcon-root{
+        display: flex;
+    }
+    .navbar-container-mobile{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: all .3s ease;
+        z-index: 6;
+        display: flex;
+    }
+    .navbar-container-mobile.active{
+        opacity: 1;
+        background             : rgba(30, 104, 143, 0.55);
+        backdrop-filter        : blur(3.8px);
+        -webkit-backdrop-filter: blur(3.8px);
+        transform: translateY(0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        overflow-y: hidden;
+    }
+    .nc-left-nav-list.mobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .nc-left-nav-list.mobile .nc-ln-li{
+        font-size: 30px;
+    }
+    .nc-right-button.mobile{
+        display: flex;
+    }
+    .nc-ma-close.MuiSvgIcon-root{
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        font-size: 50px;
+        color: #F6F7EB;
+        cursor: pointer;
+    }
+}
+

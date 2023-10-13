@@ -2,9 +2,9 @@
     padding-top          : 100px;
     padding-left         : 5vw;
     padding-right        : 5vw;
-    height               : 100vh;
+    height           : 100vh;
     width                : 100vw;
-    background-image           : linear-gradient(90deg, #00a6ffc7 5.32%, #0c79b37f 94.32%), url('../images/icon/web\ site\ .png');
+    background-image     : linear-gradient(90deg, #00a6ffc7 5.32%, #0c79b37f 94.32%), url('../images/icon/web\ site\ .png');
     /* background        : var(--bg-main-color); */
     /* background        : linear-gradient(90deg, #00a6ff 5.32%, #0c79b3 94.32%); */
     background-size      : cover;
@@ -32,7 +32,7 @@
 }
 
 .hr-row-left-desc {
-    font-size: 16px;
+    font-size: 18px;
     color    : white;
 }
 
@@ -121,4 +121,52 @@
 .hr-row-right-image {
     /* height: 60vh; */
     width: 40vw;
+}
+
+@media screen and (max-width:1080px) {
+    .hero-container{
+        min-height: 100vh;
+        height: auto;
+    }
+    .hr-row {
+        flex-direction : column;
+        gap            : 40px;
+        justify-content: center;
+    }
+
+    .hr-row-left-title span.s1::after {
+
+        transform: scale(.8);
+
+    }
+
+}
+
+@media screen and (max-width:740px) {
+    .hr-row {
+        gap: 20px;
+    }
+
+    .hr-row-left-desc {
+        font-size: 20px;
+    }
+    .hr-row-left-button {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hr-row-left-title {
+        font-size: 40px;
+    }
+
+    .hr-row-left-title span.s1::after {
+
+        transform: scale(.8);
+
+    }
+
+    .hr-row-left-button {
+        align-self: center;
+    }
 }

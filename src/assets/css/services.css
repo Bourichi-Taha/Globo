@@ -2,12 +2,13 @@
     background    : linear-gradient(0deg, #91C8E4 5.32%, #F6F4EB 94.32%);
     padding-left  : 5vw;
     padding-right : 5vw;
-    height        : 100vh;
+    min-height    : 100vh;
     width         : 100vw;
     display       : flex;
     flex-direction: column;
     align-items   : center;
     gap           : 20px;
+    padding-top   : 30px;
 }
 
 .sc-sub-heading {
@@ -38,12 +39,14 @@
 }
 
 .ac-bottom {
-    flex       : 1;
-    width      : 100%;
-    padding    : 20px 0;
-    display    : flex;
-    align-items: center;
-    gap        : 20px;
+    flex           : 1;
+    width          : 100%;
+    padding        : 20px 0 20px 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-wrap      : wrap;
+    gap            : 30px;
 }
 
 .ac-heading {
@@ -52,14 +55,15 @@
 }
 
 .ac-bottom-card {
-    width                  : 16%;
+    flex                   : 1 1 25%;
+    max-width              : 25%;
     position               : relative;
     border-radius          : 16px;
     box-shadow             : 0 4px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter        : blur(14px);
     -webkit-backdrop-filter: blur(14px);
     background             : transparent;
-    height                 : 60%;
+    height                 : 300px;
     padding                : 20px 10px;
     display                : flex;
     flex-direction         : column;
@@ -121,4 +125,41 @@
     font-weight   : lighter;
     line-height   : 1.4;
     letter-spacing: 1.5px;
+}
+
+
+
+@media screen and (max-width:1080px) {
+    .ac-heading {
+        text-align: center;
+
+    }
+
+    .ac-bottom-card {
+        height: 400px;
+        flex: 1 1 30%;
+        max-width: 30%;
+    }
+
+}
+@media screen and (max-width:780px) {
+    .ac-heading {
+        font-size: 30px;
+
+    }
+
+    .ac-bottom-card {
+        height   : 400px;
+        flex     : 1 1 40%;
+        max-width: 40%;
+    }
+}
+@media screen and (max-width:640px) {
+
+    .ac-bottom-card {
+        height   : 300px;
+        flex     : 1 1 80%;
+        max-width: 80%;
+    }
+
 }

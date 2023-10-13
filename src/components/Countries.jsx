@@ -26,10 +26,10 @@ const Countries = () => {
           0: {
             slidesPerView: 1,
           },
-          500: {
+          700: {
             slidesPerView: 2,
           },
-          700: {
+          1080: {
             slidesPerView: 3,
           },
         }}

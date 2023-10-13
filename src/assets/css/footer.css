@@ -103,3 +103,25 @@ gap: 30px;
     font-weight: lighter;
     color: #236e9a;
 }
+
+@media screen and (max-width:1080px) {
+    .fc-top-left-title{
+        font-size: 40px;
+    }
+    .footer-container{
+        min-height: 70vh;
+        height: auto;
+    }
+}
+@media screen and (max-width:1080px) {
+    .fc-top{
+        flex-direction: column;
+    }
+    .fc-top-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
