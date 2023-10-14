@@ -3,10 +3,10 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+// import { useMediaQuery } from '@mui/material';
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
-
     return (
         <div
             role="tabpanel"
@@ -42,7 +42,7 @@ export default function VerticalTabs() {
 
     return (
         <Box
-            sx={{ flexGrow: 1, bgcolor: '#F6F4EB', display: 'flex', height: 384, borderRadius: 4 ,boxShadow:"0 4px 30px rgba(0, 0, 0, 0.1)"}}
+            sx={{ flexGrow: 1, bgcolor: '#F6F4EB', display: 'flex', height: 384, borderRadius: 4, boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)" }}
         >
             <Tabs
                 orientation="vertical"
@@ -57,83 +57,48 @@ export default function VerticalTabs() {
                 <Tab label="Dubai" {...a11yProps(2)} />
             </Tabs>
             <TabPanel value={value} index={0} >
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
-                        info@lunatech.nl
-                        +31 10 750 2600
+                        +212 628428433
                     </desc>
                 </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
-                    <h3 className="title-tabs">Careers</h3>
-                    <desc className="desc-tabs">
-                        employment@lunatech.nl
-                    </desc>
-                </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Address</h3>
                     <desc className="desc-tabs">
-                        Hofplein 20
-
-                        3032 AC Rotterdam
-
-                        Van Leijenberghlaan 197A
-
-                        1082 GG Amsterdam
+                        Rue Sijjilmassa, Tanger 90060
                     </desc>
                 </div>
             </TabPanel>
             <TabPanel value={value} index={1} >
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
-                        info@lunatech.nl
-                        +31 10 750 2600
+                        info@globopeople.com
+
                     </desc>
                 </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
-                    <h3 className="title-tabs">Careers</h3>
-                    <desc className="desc-tabs">
-                        employment@lunatech.nl
-                    </desc>
-                </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Address</h3>
                     <desc className="desc-tabs">
-                        Hofplein 20
-
-                        3032 AC Rotterdam
-
-                        Van Leijenberghlaan 197A
-
-                        1082 GG Amsterdam
+                        Amstelveen, Professor J.H.<br/> Bavincklaan 7
+                        1183 AT <br/>Amstelveen
                     </desc>
                 </div>
             </TabPanel>
             <TabPanel value={value} index={2} >
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
-                        info@lunatech.nl
-                        +31 10 750 2600
+                        Info@globopeople.com
                     </desc>
                 </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
-                    <h3 className="title-tabs">Careers</h3>
-                    <desc className="desc-tabs">
-                        employment@lunatech.nl
-                    </desc>
-                </div>
-                <div style={{marginBottom:"30px",display:'flex',flexDirection:'column',gap:'20px'}} className="tab-container">
+
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Address</h3>
                     <desc className="desc-tabs">
-                        Hofplein 20
+                        Business Center A,M Floor<br/> , The Meydan Hotel, Nad AI,<br/> Sheba, Dubai, U.A.E
 
-                        3032 AC Rotterdam
-
-                        Van Leijenberghlaan 197A
-
-                        1082 GG Amsterdam
                     </desc>
                 </div>
             </TabPanel>

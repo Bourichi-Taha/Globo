@@ -24,3 +24,21 @@
     font-weight: lighter;
 }
 
+@media screen and (max-width:1080px) {
+    .occ-title{
+        font-size: 40px;
+
+    }
+    .occ-desc{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:720px) {
+    .occ-title{
+        font-size: 30px;
+
+    }
+    .occ-desc{
+        font-size: 18px;
+    }
+}

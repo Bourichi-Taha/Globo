@@ -3,7 +3,7 @@ import "../assets/css/about.css"
 import img from "../assets/images/logo/golobo.png"
 const About = () => {
   return (
-    <div className="about-container">
+    <div id='about' className="about-container">
       <h2 className="ac-sub-heading"><span>About</span></h2>
       <div className="ac-content">
         <div className="ac-content-left">

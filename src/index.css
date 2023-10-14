@@ -1,11 +1,13 @@
+
+@import url('https://fonts.cdnfonts.com/css/conthrax');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
 body {
   --bg-main-color:#F6F4EB;
   --bg-main-color-darker:#F6F4EB;
 
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Readex Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -35,9 +37,12 @@ code {
     body{
       zoom: 1.5;
      }
-  }
+  }è
   @media screen and (max-width: 1599px) {
     body{
       zoom: 1;
      }
   } */
+  html {
+    scroll-behavior: smooth;
+  }

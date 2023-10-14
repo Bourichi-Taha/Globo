@@ -3,19 +3,19 @@ import "../assets/css/services.css"
 
 const Services = () => {
     return (
-        <div className="services-container">
+        <div id='services' className="services-container">
             <h2 className="sc-sub-heading"><span>Services</span></h2>
             <h2 className="ac-heading"><span>Elevate Your Business with Our IT Solutions</span></h2>
             <div className="ac-bottom">
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Seniority</div>
                     <div className="ac-bc-title">Back-end</div>
-                    <div className="ac-bc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum dolore facere, rem possimus natus.</div>
+                    <div className="ac-bc-desc">With 30 years of experience in IT consulting, we offer diverse technologies to meet your immediate needs and foster future growth.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Productivity</div>
                     <div className="ac-bc-title">DevOps</div>
-                    <div className="ac-bc-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eum dolore facere, rem possimus natus.</div>
+                    <div className="ac-bc-desc">The DevOps movement bridges the gap between developers and operations. Our experts will support you with implementing, auditing and improving this mindset throughout your organisation.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Creativity</div>

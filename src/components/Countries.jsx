@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 const Countries = () => {
   return (
-    <div className="countries-container">
+    <div id='countries' className="countries-container">
       <h1 className='cc-title'>Where You can find us</h1>
       <Swiper
         effect={"coverflow"}

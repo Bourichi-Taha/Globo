@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import VerticalTabs from './VerticalTabs'
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <div id='footer' className="footer-container">
         <div className="fc-top">
             <div className="fc-top-left">
               <h1 className="fc-top-left-title">
