@@ -50,12 +50,12 @@ const Contact = () => {
                         <TextField value={message} onChange={(e)=>setMessage(e.target.value)} required multiline maxRows={4} minRows={4} label={"Message"} className='ccm-fr-item full' />
                     </div>
                     <div className="ccm-form-row">
-                        <FormControlLabel required control={<Checkbox checked={check1} onChange={(e)=>setCheck1(e.target.checked)} />} label="I would like to receive relevant updates from Expleo via e-mail and agree to commercial processing of my data." />
+                        <FormControlLabel required control={<Checkbox checked={check1} onChange={(e)=>setCheck1(e.target.checked)} />} label="I would like to receive relevant updates from Globo via e-mail and agree to commercial processing of my data." />
                     </div>
                     <div className="ccm-form-row">
                         <FormControlLabel required checked control={<Checkbox checked={check2} onChange={(e)=>setCheck2(e.target.checked)} />} label="
 I accept the Data Protection Policy.
-You can revoke your privacy consent and stop receiving our updates at any time by notifying us via all known communication channels. For more information click here.
+You can revoke your privacy consent and stop receiving our updates at any time by notifying us via all known communication channels.
 " />
                     </div>
                     <button onClick={() => {}} className="nc-right-button ccm"><span>Let's Talk</span></button>

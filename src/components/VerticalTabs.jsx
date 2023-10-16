@@ -53,8 +53,8 @@ export default function VerticalTabs() {
                 sx={{ borderRight: 1, borderColor: 'divider' }}
             >
                 <Tab label="Amsterdam" {...a11yProps(1)} />
-                <Tab label="Tangier" {...a11yProps(0)} />
                 <Tab label="Dubai" {...a11yProps(2)} />
+                <Tab label="Tangier" {...a11yProps(0)} />
             </Tabs>
             <TabPanel value={value} index={0} >
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
@@ -72,7 +72,7 @@ export default function VerticalTabs() {
                     </desc>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={1} >
+            <TabPanel value={value} index={2} >
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
@@ -86,7 +86,7 @@ export default function VerticalTabs() {
                     </desc>
                 </div>
             </TabPanel>
-            <TabPanel value={value} index={2} >
+            <TabPanel value={value} index={1} >
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">

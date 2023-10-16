@@ -46,19 +46,19 @@ const Countries = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="bannerSwiper"
       >
-
+        
         <SwiperSlide >
           <div className="card-box" >
             <div className="top d-flex">
               <span className="icon-logo-01"></span>
               <div>
-                <h6>Tangier</h6>
-                <h6 className="price">Morocco</h6>
+                <h6>Dubai</h6>
+                <h6 className="price">United Arab Emirates</h6>
               </div>
             </div>
             <div className="content">
               <div className="image">
-                <img src={tangier} alt="Globo" />
+                <img src={dubai} alt="Globo" />
               </div>
 
 
@@ -88,22 +88,19 @@ const Countries = () => {
             <div className="top d-flex">
               <span className="icon-logo-01"></span>
               <div>
-                <h6>Dubai</h6>
-                <h6 className="price">United Arab Emirates</h6>
+                <h6>Tangier</h6>
+                <h6 className="price">Morocco</h6>
               </div>
             </div>
             <div className="content">
               <div className="image">
-                <img src={dubai} alt="Globo" />
+                <img src={tangier} alt="Globo" />
               </div>
 
 
             </div>
           </div>
         </SwiperSlide>
-
-
-
       </Swiper>
 
     </div>
