@@ -1,43 +1,34 @@
-import React, { useEffect, useState } from 'react'
 import "../assets/css/dashboard.css"
 import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
 import About from '../components/About'
 import Services from '../components/Services'
 import Countries from '../components/Countries'
 import OurClient from '../components/OurClient'
-import Loader from '../components/Loader'
-import Footer from '../components/Footer'
 import Contact from '../components/Contact'
+import { useLocation } from "react-router-dom"
+import { useEffect } from "react"
 const Dashboard = () => {
-    const [scrolling, setScrolling] = useState(false);
-
+    const location = useLocation()
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
     useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setScrolling(true);
-            } else {
-                setScrolling(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+        if (location.state && location.state.id) {
+            scrollToSection(location.state.id)
+        }
+    }, [location.state])
     return (
         <div className="dashboard-container" >
-            <Loader/>
-            <Navbar scroll={scrolling} />
+
             <Hero />
             <About />
             <Services />
             <Countries />
             <OurClient />
-            <Contact/>
-            <Footer/>
+            <Contact />
         </div>
     )
 }

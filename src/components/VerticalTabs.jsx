@@ -52,7 +52,7 @@ export default function VerticalTabs() {
                 aria-label="Vertical tabs example"
                 sx={{ borderRight: 1, borderColor: 'divider' }}
             >
-                <Tab label="Amsterdam" {...a11yProps(1)} />
+                <Tab label="Amstelveen" {...a11yProps(1)} />
                 <Tab label="Dubai" {...a11yProps(2)} />
                 <Tab label="Tangier" {...a11yProps(0)} />
             </Tabs>

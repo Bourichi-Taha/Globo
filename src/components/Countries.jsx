@@ -3,7 +3,7 @@ import "../assets/css/countries.css"
 import "../assets/css/countries.scss"
 import { Swiper, SwiperSlide } from "swiper/react";
 import tangier from "../assets/images/icon/tangier.jpg"
-import amsterdam from "../assets/images/icon/amsterdam.jpg"
+import amsterdam from "../assets/images/icon/amestelveen.jpg"
 import dubai from "../assets/images/icon/dubai.jpg"
 
 import "swiper/css";
@@ -70,7 +70,7 @@ const Countries = () => {
             <div className="top d-flex">
               <span className="icon-logo-01"></span>
               <div>
-                <h6>Amsterdam</h6>
+                <h6>Amstelveen</h6>
                 <h6 className="price">Netherlands</h6>
               </div>
             </div>

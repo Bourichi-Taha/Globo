@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className="fc-bottom">
             <div className="fc-bottom-left">
-              Globo®
+              Globo® 
             </div>
         </div>
     </div>

@@ -2,25 +2,28 @@ import React, { useState } from 'react'
 import "../assets/css/navbar.css"
 import logo from "../assets/images/logo/icon white.png"
 import logoDark from "../assets/images/logo/golobo.png"
-import { Link } from 'react-router-dom'
+import { Link,  useNavigate } from 'react-router-dom'
 import WidgetsRoundedIcon from '@mui/icons-material/WidgetsRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 
 
 const Navbar = ({ scroll }) => {
+  const navigate = useNavigate()
   const [open, setOpen] = useState(false);
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
+    }else{
+      navigate("/",{state: {id:id}});
     }
   }
   return (
     <>
       <div className={scroll ? "navbar-container scroll" : "navbar-container"}>
         <div className="nc-left">
-          {scroll ? <img src={logoDark} onClick={() => scrollToSection("hero")} alt="" className="nc-left-logo" /> : <img onClick={() => scrollToSection("hero")} src={logo} alt="" className="nc-left-logo" />}
+          {scroll ? <img src={logoDark} onClick={() => navigate("/")} alt="" className="nc-left-logo" /> : <img onClick={() => scrollToSection("hero")} src={logo} alt="" className="nc-left-logo" />}
           <ul className="nc-left-nav-list">
             <li className="nc-ln-li"><a href="#about" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("about")}>About</a></li>
             <li className="nc-ln-li"><a href="#services" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("services")}>Services</a></li>

@@ -1,5 +1,6 @@
-.dashboard-container{
+.data-protection-container{
     min-height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    /* background: #0c79b3; */
 }

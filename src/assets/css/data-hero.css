@@ -1,0 +1,19 @@
+.data-hero-container{
+    height: 50vh;
+    width: 100vw;
+    padding: 0 5vw;
+    padding-top: 100px;
+    background-image     : linear-gradient(90deg, #00a6ffc7 5.32%, #0c79b3d6 94.32%), url('../images/icon/bg-dots.jpg');
+    /* background        : var(--bg-main-color); */
+    /* background        : linear-gradient(90deg, #00a6ff 5.32%, #0c79b3 94.32%); */
+    background-size      : cover;
+    /* Ensure the image covers the entire viewport */
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.dhc-title{
+    font-size: 60px;
+    color: #F6F4EB;
+}
