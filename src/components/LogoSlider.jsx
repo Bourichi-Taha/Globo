@@ -1,16 +1,17 @@
 import React from 'react'
 import "../assets/css/logo-slider.css"
-import audi from "../assets/images/logo/Audi-Logo.png"
+import audi from "../assets/images/logo/canon.png"
 import dhl from "../assets/images/logo/DHL-Logo.png"
-import ing from "../assets/images/logo/ING-Logo.png"
+import ing from "../assets/images/logo/Allianz.png"
 import ms from "../assets/images/logo/MS-Amlin-Logo.png"
-import ups from "../assets/images/logo/UPS-Logo.png"
+import ups from "../assets/images/logo/capGem.png"
+import kpn from "../assets/images/logo/KPN.png"
+import nielsen from "../assets/images/logo/Nielsen.png"
 import p1 from "../assets/images/logo/partners1.png"
 import p2 from "../assets/images/logo/partners2.png"
 import p3 from "../assets/images/logo/partners4.png"
 import p4 from "../assets/images/logo/partners5.png"
 import p5 from "../assets/images/logo/partners6.png"
-import p6 from "../assets/images/logo/UPS-Logo.png"
 const LogoSlider = ({ partners }) => {
     let content;
     if (partners) {
@@ -22,7 +23,6 @@ const LogoSlider = ({ partners }) => {
                     <img src={p3} alt='Globo' />
                     <img src={p4} alt='Globo' />
                     <img src={p5} alt='Globo' />
-                    <img src={p6} alt='Globo' />
                 </div>
 
                 <div className="logos-slide">
@@ -31,7 +31,6 @@ const LogoSlider = ({ partners }) => {
                     <img src={p3} alt='Globo' />
                     <img src={p4} alt='Globo' />
                     <img src={p5} alt='Globo' />
-                    <img src={p6} alt='Globo' />
                 </div>
             </div>
         )
@@ -44,6 +43,8 @@ const LogoSlider = ({ partners }) => {
                     <img src={ing} alt='Globo' />
                     <img src={ms} alt='Globo' />
                     <img src={ups} alt='Globo' />
+                    <img src={kpn} alt='Globo' />
+                    <img src={nielsen} alt='Globo' />
                 </div>
 
                 <div className="logos-slide">
@@ -52,6 +53,8 @@ const LogoSlider = ({ partners }) => {
                     <img src={ing} alt='Globo' />
                     <img src={ms} alt='Globo' />
                     <img src={ups} alt='Globo' />
+                    <img src={kpn} alt='Globo' />
+                    <img src={nielsen} alt='Globo' />
                 </div>
             </div>
         )

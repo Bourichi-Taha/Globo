@@ -10,13 +10,13 @@ const About = () => {
           <img src={img} alt="" className="ac-content-left-image" />
         </div>
         <div className="ac-content-right">
-          <div className="ac-content-right-title">We believe in simplicity.</div>
+          <div className="ac-content-right-title">We believe in effortless solutions.</div>
           <div className="ac-content-right-desc">
-            Working closely with our clients, we ensure that their business needs are understood and met. With long-standing relationships of over 20 years, we work to achieve timely deliveries, maintainable systems, and simple solutions.
+          By forging close partnerships with our clients, we gain a deep understanding of their unique business objectives. With relationships that span decades, our focus is on prompt service delivery, sustainable system architecture, and straightforward answers to complex challenges.
           </div>
-          <div className="ac-content-right-title">From 100k to 15k lines of Code.</div>
+          <div className="ac-content-right-title">Code Lean, Dream Big.</div>
           <div className="ac-content-right-desc">
-            Our focus on what we must achieve and a profound understanding of your business guarantees a smarter and more efficient code.
+          Our laser-focused approach and deep grasp of your business landscape enable us to distill complex problems into clean, efficient code. With Globo People, experience smarter programming that doesn't compromise on functionality.
           </div>
         </div>
       </div>

@@ -52,25 +52,11 @@ export default function VerticalTabs() {
                 aria-label="Vertical tabs example"
                 sx={{ borderRight: 1, borderColor: 'divider' }}
             >
-                <Tab label="Tangier" {...a11yProps(0)} />
                 <Tab label="Amsterdam" {...a11yProps(1)} />
+                <Tab label="Tangier" {...a11yProps(0)} />
                 <Tab label="Dubai" {...a11yProps(2)} />
             </Tabs>
             <TabPanel value={value} index={0} >
-                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
-                    <h3 className="title-tabs">Business development</h3>
-                    <desc className="desc-tabs">
-                        +212 628428433
-                    </desc>
-                </div>
-                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
-                    <h3 className="title-tabs">Address</h3>
-                    <desc className="desc-tabs">
-                        Rue Sijjilmassa, Tanger 90060
-                    </desc>
-                </div>
-            </TabPanel>
-            <TabPanel value={value} index={1} >
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
@@ -86,6 +72,20 @@ export default function VerticalTabs() {
                     </desc>
                 </div>
             </TabPanel>
+            <TabPanel value={value} index={1} >
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
+                    <h3 className="title-tabs">Business development</h3>
+                    <desc className="desc-tabs">
+                        +212 628428433
+                    </desc>
+                </div>
+                <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
+                    <h3 className="title-tabs">Address</h3>
+                    <desc className="desc-tabs">
+                        Rue Sijjilmassa,<br/>Residence Hayat Center III,<br/>Tanger 90060
+                    </desc>
+                </div>
+            </TabPanel>
             <TabPanel value={value} index={2} >
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
@@ -97,7 +97,7 @@ export default function VerticalTabs() {
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Address</h3>
                     <desc className="desc-tabs">
-                        Business Center A,M Floor<br/> , The Meydan Hotel, Nad AI,<br/> Sheba, Dubai, U.A.E
+                        Business Center A,M Floor,<br/>The Meydan Hotel, Nad AI,<br/>Sheba, Dubai, U.A.E
 
                     </desc>
                 </div>

@@ -27,7 +27,7 @@ const Navbar = ({ scroll }) => {
             <li className="nc-ln-li"><a href="#countries" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("countries")}>Locals</a></li>
             <li className="nc-ln-li"><a href="#clients" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("clients")}>Trusted</a></li>
             <li className="nc-ln-li"><a href="#partners" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("partners")}>Partners</a></li>
-            <li className="nc-ln-li"><a href="#contact" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("footer")}>Contact</a></li>
+            <li className="nc-ln-li"><a href="#contact" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("contact")}>Contact</a></li>
           </ul>
         </div>
         <div className="nc-right">
@@ -45,7 +45,7 @@ const Navbar = ({ scroll }) => {
           <li className="nc-ln-li"><a href="#countries" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("countries")}>Locals</a></li>
           <li className="nc-ln-li"><a href="#clients" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("clients")}>Trusted</a></li>
           <li className="nc-ln-li"><a href="#partners" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("partners")}>Partners</a></li>
-          <li className="nc-ln-li"><a href="#contact" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("footer")}>Contact</a></li>
+          <li className="nc-ln-li"><a href="#contact" style={{ textDecoration: "none", color: "white" }} onClick={() => scrollToSection("contact")}>Contact</a></li>
         </ul>
         <Link to="" onClick={() => scrollToSection("footer")} className="nc-right-button mobile"><span>Start Now</span></Link>
       </div>

@@ -8,6 +8,7 @@ import Countries from '../components/Countries'
 import OurClient from '../components/OurClient'
 import Loader from '../components/Loader'
 import Footer from '../components/Footer'
+import Contact from '../components/Contact'
 const Dashboard = () => {
     const [scrolling, setScrolling] = useState(false);
 
@@ -35,6 +36,7 @@ const Dashboard = () => {
             <Services />
             <Countries />
             <OurClient />
+            <Contact/>
             <Footer/>
         </div>
     )

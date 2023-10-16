@@ -15,9 +15,9 @@ const Hero = () => {
                 <div className="hr-row-left">
                     <h2 className="hr-row-left-title">Simplify your IT<br />
                         with <span className="s1">Globo</span> <br /><br /></h2>
-                    <p className="hr-row-left-desc">We believe that technology should be an enabler, not a barrier.</p>
-                    <p className="hr-row-left-desc">Our mission is to empower your business by simplifying your IT infrastructure,</p>
-                    <p className="hr-row-left-desc">so you can focus on what you do best.</p>
+                    <p className="hr-row-left-desc">We believe that technology should amplify your capabilities, not limit them.</p>
+                    <p className="hr-row-left-desc">At Globo People, our mission is to unclutter your tech landscape,</p>
+                    <p className="hr-row-left-desc">empowering you to concentrate on your core business strengths.</p>
 
                     <Link to="/" onClick={() => scrollToSection("footer")} className="hr-row-left-button"><span>Start Now</span></Link>
                 </div>
