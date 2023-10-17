@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="fc-top">
             <div className="fc-top-left">
               <h1 className="fc-top-left-title">
-              Together more independent to undertake.
+              Elevating Teams to Self-Driven Success.
               </h1>
               <Link to="#contact" className="fc-tl-button"><span>Start Now</span></Link>
 

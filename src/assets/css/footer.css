@@ -13,6 +13,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .fc-top-left
@@ -85,7 +86,7 @@ gap: 30px;
 
 .fc-top-right
 {
-    flex: 1;
+    flex: .5;
 }
 
 .fc-bottom {

@@ -42,7 +42,7 @@ export default function VerticalTabs() {
 
     return (
         <Box
-            sx={{ flexGrow: 1, bgcolor: '#F6F4EB', display: 'flex', height: 384, borderRadius: 4, boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)" }}
+            sx={{ flexGrow: 1, bgcolor: '#F6F4EB', display: 'flex', height: 300,width:700, borderRadius: 4, boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)" }}
         >
             <Tabs
                 orientation="vertical"
@@ -76,13 +76,16 @@ export default function VerticalTabs() {
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Business development</h3>
                     <desc className="desc-tabs">
-                        +212 628428433
+                        info.dgh.ma
+                    </desc>
+                    <desc className="desc-tabs">
+                        +212 539 944 179
                     </desc>
                 </div>
                 <div style={{ marginBottom: "30px", display: 'flex', flexDirection: 'column', gap: '20px' }} className="tab-container">
                     <h3 className="title-tabs">Address</h3>
                     <desc className="desc-tabs">
-                        Rue Sijjilmassa,<br/>Residence Hayat Center III,<br/>Tanger 90060
+                    Quartier administrative, Rue Sijjilmassa,<br/>Residence Hayat Center III, Bureau 56, <br/>etage 4, Tangier, Morocco, 90000 <br/>
                     </desc>
                 </div>
             </TabPanel>

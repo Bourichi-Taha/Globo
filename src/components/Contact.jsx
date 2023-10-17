@@ -51,7 +51,10 @@ const Contact = () => {
                         <TextField value={message} onChange={(e) => setMessage(e.target.value)} required multiline maxRows={4} minRows={4} label={"Message"} className='ccm-fr-item full' />
                     </div>
                     <div className="ccm-form-row">
-                        <FormControlLabel control={<Checkbox checked={check1} onChange={(e) => setCheck1(e.target.checked)} />} label="I would like to receive relevant updates from Globo via e-mail and agree to commercial processing of my data." />
+                        <FormControlLabel control={<Checkbox checked={check1} onChange={(e) => setCheck1(e.target.checked)} />}  />
+                        <span>
+                            I would like to receive relevant updates from Globo via e-mail and agree to commercial processing of my data.
+                        </span>
                     </div>
                     <div className="ccm-form-row" style={{gap:0}}>
                         <FormControlLabel style={{marginRight:0}} checked control={<Checkbox checked={check2} onChange={(e) => setCheck2(e.target.checked)} />} />

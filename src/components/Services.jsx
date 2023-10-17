@@ -10,32 +10,32 @@ const Services = () => {
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Seniority</div>
                     <div className="ac-bc-title">Back-end</div>
-                    <div className="ac-bc-desc">With 30 years of experience in IT consulting, we offer diverse technologies to meet your immediate needs and foster future growth.</div>
+                    <div className="ac-bc-desc">Three Decades of Expertise in Tailoring Back-End Technologies: Crafting Solutions for Today and Strategizing for Tomorrow.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Productivity</div>
-                    <div className="ac-bc-title">DevOps</div>
-                    <div className="ac-bc-desc">The DevOps movement bridges the gap between developers and operations. Our experts will support you with implementing, auditing and improving this mindset throughout your organisation.</div>
+                    <div className="ac-bc-title">Cloud Services</div>
+                    <div className="ac-bc-desc">Unlock the Cloud's Potential: Elevate Your Business with Seamless Migration, Expert Management, and Scalable Cloud Solutions for the Modern Enterprise.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Creativity</div>
                     <div className="ac-bc-title">Front-end</div>
-                    <div className="ac-bc-desc">We build custom dashboards, websites and responsive web applications to get an insight into the large systems you run, provide business intelligence and improve communication.</div>
+                    <div className="ac-bc-desc">Transforming User Experiences with Bespoke Front-End Solutions: Intelligent Dashboards, Dynamic Websites, and Responsive Apps for Unparalleled Business Insights and Communication.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Integrity</div>
                     <div className="ac-bc-title">Big data</div>
-                    <div className="ac-bc-desc">We have the expertise to provide an architecture for Big Data. We also use machine learning and artificial intelligence frameworks to help create value.</div>
+                    <div className="ac-bc-desc">Unlocking the Power of Big Data: Architecting Scalable Solutions Enhanced by Machine Learning and AI to Drive Business Value.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Reliability</div>
-                    <div className="ac-bc-title">Machine learning</div>
-                    <div className="ac-bc-desc">We design and implement intelligent systems that learn and improve over time, We automate testing and make sure test are running prior to deployment, We also take care of writing test scenarios.</div>
+                    <div className="ac-bc-title">Artificial Intelligence</div>
+                    <div className="ac-bc-desc">Empower Your Business with AI: Intelligent Systems for Data-Driven Decisions and Automated Excellence.</div>
                 </div>
                 <div className="ac-bottom-card">
                     <div className="ac-bc-sub-title">Availability</div>
-                    <div className="ac-bc-title">System integration</div>
-                    <div className="ac-bc-desc">We help you transform your IT landscape by bridging the gap between your old and new applications. Together, we make your systems more sustainable, modern, scalable, communicative and cost-effective.</div>
+                    <div className="ac-bc-title">Cyber Security</div>
+                    <div className="ac-bc-desc">Fortifying Your Digital Assets: Proactive Security Solutions for Uncompromising Data Protection and Business Resilience.</div>
                 </div>
             </div>
         </div>

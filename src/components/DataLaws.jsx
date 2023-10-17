@@ -7,10 +7,10 @@ const DataLaws = () => {
                 <h1 className="dlc-item-title">1. Introduction</h1>
                 <div className="dlc-item-desc">
                     <p className="dlc-item-desc-item">
-                        Globo Group respects the privacy of its website’s visitors (“you”), and we are committed to protecting their personal data. We have drafted this privacy policy to enable you to gain a better understanding of who we are and what are our practices with respect to the collection, use, disclosure, and retention of personal data obtained in connection with your browsing of our website.
+                        Globo Poeple respects the privacy of its website’s visitors (“you”), and we are committed to protecting their personal data. We have drafted this privacy policy to enable you to gain a better understanding of who we are and what are our practices with respect to the collection, use, disclosure, and retention of personal data obtained in connection with your browsing of our website.
                     </p>
                     <p className="dlc-item-desc-item">
-                        Please take the time to read this privacy policy as it offers a guide on our practices in relation to data protection and will address any questions you may have in relation to the processing of your data. Please be aware that data protection laws can vary in different jurisdictions where Globo Group operates, this policy endeavours to describe the practices implemented to encompass all these different requirements. Depending on your country, there might be situation in which stricter laws are applicable. For these situations, specific privacy practices in those locations have been adopted to satisfy those stricter requirements.
+                        Please take the time to read this privacy policy as it offers a guide on our practices in relation to data protection and will address any questions you may have in relation to the processing of your data. Please be aware that data protection laws can vary in different jurisdictions where Globo Poeple operates, this policy endeavours to describe the practices implemented to encompass all these different requirements. Depending on your country, there might be situation in which stricter laws are applicable. For these situations, specific privacy practices in those locations have been adopted to satisfy those stricter requirements.
                     </p>
                     <p className="dlc-item-desc-item">
                         This privacy policy may change over time to comply with legal requirements or to meet our changing needs. In case there is an important change, we will inform you in another appropriate way if it is required by law (for example, via email or a pop-up).
@@ -29,16 +29,13 @@ const DataLaws = () => {
                 <h1 className="dlc-item-title">3. Identity of the Data Controllers and the contact details of the Data Protection Officer</h1>
                 <div className="dlc-item-desc">
                     <p className="dlc-item-desc-item">
-                        Globo Group is a global organisation. Although the group has separate legal entities in many countries (“Globo entities”), our internal processes and infrastructure are international in scope and nature and are generally transnational.
+                        Globo People is a global organisation. Although the group has separate legal entities in many countries (“Globo People entities”), our internal processes and infrastructure are international in scope and nature and are generally transnational.
                     </p>
                     <p className="dlc-item-desc-item">
-                        “Globo entities” mean any company within Globo Group that is controlled directly or indirectly by Globo Group S.A.S., with the registered office: 3, Avenue des Prés 78180 Montigny les Bretonneux, France, a French company governed by French law, simplified joint stock company with capital of 242,397,967.00 euros - Registered on the Trade and Companies Register under number 831 178 785 RCS Versailles.
+                        At the time of the latest update of this privacy policy, Globo entities are the following, Globo People Netherlands, United Arab Emirates, and Morocco.
                     </p>
                     <p className="dlc-item-desc-item">
-                        At the time of the latest update of this privacy policy, Globo entities are the following, Globo Austria, Belgium, Canada, Egypt, Engineering UK, France, Germany (Engineering), Iberia, India, Netherlands, Norway, Romania, Solutions India, South Africa, Sweden, Switzerland Engineering, Technologies India, Technology Germany, Technology Ireland, Technology Switzerland, Technology UK, Technology UK (Northern Ireland), Technology USA Inc dba Trissential, USA (North America), Global Corporate, Silver Atena (Germany), Stirling Dynamics GmbH’, Stirling Dynamics Ltd (UK), Vista International Services Srl (Romania).
-                    </p>
-                    <p className="dlc-item-desc-item">
-                        The designated Group Data Protection Officer can be reached at: dpo@Globogroup.com.
+                        The designated Group Data Protection Officer can be reached at: info@globopeople.com
                     </p>
                 </div>
             </div>
@@ -47,7 +44,7 @@ const DataLaws = () => {
                 <h3 className="dlc-item-sub-title">4.1 Data Processed</h3>
                 <div className="dlc-item-desc">
                     <p className="dlc-item-desc-item">
-                        When you visit our websites and our social media pages, including www.Globo.com, the browser used on your device automatically sends information to the server of our websites and our social media pages. This information is temporarily stored in a log file. The following information will be collected without your intervention and stored until it is automatically deleted:
+                        When you visit our websites and our social media pages, including www.GloboPoeple.com, the browser used on your device automatically sends information to the server of our websites and our social media pages. This information is temporarily stored in a log file. The following information will be collected without your intervention and stored until it is automatically deleted:
                     </p>
                     <ul className="dlc-id-list">
                         <li className="dlc-id-list-item">IP address of the calling computer;</li>
@@ -171,13 +168,13 @@ const DataLaws = () => {
                         <span>Right to data portability:</span> You have the right to receive personal data you have provided us with in a structured, commonly used and machine-readable format, or to request its transfer to another data controller.
                     </p>
                     <p className="dlc-item-desc-item">
-                        <span>Right to withdraw consent to data processing:</span> You have the right to withdraw your consent to the processing of your personal data at any time. Consequently, in such a case, we will not be able to continue the processing of data based on this consent. Withdrawal of consent shall not affect the lawfulness of processing based on consent prior to such withdrawal. If you wish to make use of your right of withdrawal, simply inform us by all known means of communication, by e-mailing dpo@Globogroup.com
+                        <span>Right to withdraw consent to data processing:</span> You have the right to withdraw your consent to the processing of your personal data at any time. Consequently, in such a case, we will not be able to continue the processing of data based on this consent. Withdrawal of consent shall not affect the lawfulness of processing based on consent prior to such withdrawal. If you wish to make use of your right of withdrawal, simply inform us by all known means of communication, by e-mailing info@globopeople.com
                     </p>
                     <p className="dlc-item-desc-item">
                         <span>Right to lodge a complaint with a supervisory authority:</span> You have the right to lodge a complaint with a supervisory authority.
                     </p>
                     <p className="dlc-item-desc-item">
-                        <span>Right to object:</span> If the processing of your personal data is based on legitimate interests, you have the right to object to the processing of your personal data. If you wish to make use of your right to object, simply send a corresponding notification by e-mail to dpo@Globogroup.com.
+                        <span>Right to object:</span> If the processing of your personal data is based on legitimate interests, you have the right to object to the processing of your personal data. If you wish to make use of your right to object, simply send a corresponding notification by e-mail to info@globopeople.com.
                     </p>
                     <p className="dlc-item-desc-item">
                         <span>Right not to be subject to automated decisions taken on an individual basis:</span> including profiling. You have the right not to be subject to a decision based solely on automated processing - including profiling - which will have a legal effect or similarly affect you.
@@ -199,7 +196,7 @@ const DataLaws = () => {
                 <h1 className="dlc-item-title">8. How to contact us</h1>
                 <div className="dlc-item-desc">
                     <p className="dlc-item-desc-item">
-                        We hope that we can resolve any query or concern you raise about processing of your data. Please email requests to: dpo@Globogroup.com.
+                        We hope that we can resolve any query or concern you raise about processing of your data. Please email requests to: info@globopeople.com.
                     </p>
                 </div>
             </div>
