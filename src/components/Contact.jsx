@@ -4,7 +4,7 @@ import { Checkbox, FormControlLabel, MenuItem, Select, TextField } from '@mui/ma
 import { Link } from 'react-router-dom'
 
 
-const Contact = () => {
+const Contact = ({white}) => {
     const [firstname, setFirstname] = useState("")
     const [lastname, setLastname] = useState("")
     const [phone, setPhone] = useState("")
@@ -16,7 +16,7 @@ const Contact = () => {
     const [check1, setCheck1] = useState(true)
     const [check2, setCheck2] = useState(true)
     return (
-        <div id='contact' className="contact-container">
+        <div id='contact' className="contact-container" style={white ? {backgroundColor:"white"}: null}>
             <h2 className="ac-sub-heading"><span>Contact</span></h2>
             <div className="cc-main">
                 <h1 className="ccm-title">Like to find out more information on Globo?</h1>

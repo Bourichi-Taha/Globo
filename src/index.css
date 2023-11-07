@@ -5,7 +5,7 @@
 body {
   --bg-main-color:#F6F4EB;
   --bg-main-color-darker:#F6F4EB;
-
+  --global-padding:30px 100px;
 
   font-family: 'Readex Pro', sans-serif;
   -webkit-font-smoothing: antialiased;

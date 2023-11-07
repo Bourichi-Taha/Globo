@@ -51,4 +51,23 @@
 .logos-slide img {
     height: 50px;
     margin: 0 40px;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+.logos-slide img:hover {
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+
+.technologies-container{
+    width: 100%;
+    padding: var(--global-padding);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.technologies-container-title{
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
 }

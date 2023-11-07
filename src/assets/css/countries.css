@@ -9,10 +9,11 @@
     flex-direction : column;
     gap            : 40px;
     overflow-x     : hidden;
+
 }
 
 .bannerSwiper {
-    width   : 80%;
+    width   : 100%;
     position: relative;
 }
 

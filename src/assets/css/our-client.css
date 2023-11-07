@@ -7,12 +7,12 @@
     justify-content: center;
     flex-direction : column;
     gap: 40px;
-    padding: 40px 5vw;
+    padding: var(--global-padding);
 }
 
-.occ-title {
+.occ-title { 
     text-align : center;
-    color      : #F6F4EB;
+    color      : #333333;
     font-size  : 60px;
     font-weight: lighter;
 }

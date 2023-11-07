@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import { EffectCoverflow, Pagination, Navigation,Autoplay } from "swiper/modules";
 const Countries = () => {
   return (
     <div id='countries' className="countries-container">
@@ -33,6 +33,10 @@ const Countries = () => {
             slidesPerView: 3,
           },
         }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         coverflowEffect={{
           rotate: 30,
           stretch: 15,
@@ -43,7 +47,7 @@ const Countries = () => {
 
 
 
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCoverflow, Pagination, Navigation,Autoplay]}
         className="bannerSwiper"
       >
         
@@ -101,6 +105,7 @@ const Countries = () => {
             </div>
           </div>
         </SwiperSlide>
+        
       </Swiper>
 
     </div>
