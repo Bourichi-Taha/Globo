@@ -2,18 +2,18 @@
     height                 : 100px;
     width                  : 100vw;
     /* background             : rgba(30, 104, 143, 0.88); */
-    background: transparent;
+    /* background: transparent; */
     position               : fixed;
     top                    : 0;
     display                : flex;
     align-items            : flex-end;
     justify-content        : space-between;
     padding                : 10px 5vw;
-    box-shadow             : 0 4px 30px rgba(0, 0, 0, 0.1);
     transition             : all .5s ease;
     box-shadow             : 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter        : blur(5.9px);
-    -webkit-backdrop-filter: blur(5.9px);
+    background             : rgba(30, 104, 143, 0.55);
+    backdrop-filter        : blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
     z-index: 5;
     overflow: hidden;
 }

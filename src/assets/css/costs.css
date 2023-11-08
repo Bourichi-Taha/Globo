@@ -1,0 +1,54 @@
+.costs-container{
+    width: 100%;
+    padding: var(--global-padding);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url("../images/icon/blog-bg-curve.jpg");
+}
+.costs-subtitle{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #999999;
+}
+.costs-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: #333333;
+}
+.costs-steps{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.costs-step{
+    flex: .3;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.costs-step-img{
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.costs-step-title{
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}
+.costs-step-desc{
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
