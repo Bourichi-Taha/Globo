@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import DataProtection from './pages/DataProtection';
 import Home from './pages/Home';
 import Outsourcing from './pages/Outsourcing';
+import Outstuffing from './pages/Outstuffing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/data-protection' element={<DataProtection/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/outsourcing' element={<Outsourcing/>} />
+        <Route path='/outstuffing' element={<Outstuffing/>} />
 
       </Route>
     </Routes>

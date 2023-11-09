@@ -1,8 +1,8 @@
-.os-proccess-container{
+.of-proccess-container{
     width: 100%;
     background: white;
 }
-.os-proccess-title{
+.of-proccess-title{
     font-size: 60px;
     font-weight: bold;
     color: #333333;
@@ -10,15 +10,15 @@
     padding: 40px 0;
 }
 
-.os-proccess-steps{
+.of-proccess-steps{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.os-proccess-step{
-    flex: .2;
-    max-width: 20%;
+.of-proccess-step{
+    flex: .25;
+    max-width: 25%;
     height: 100%;
     display: flex;
     padding: 40px;
@@ -28,39 +28,37 @@
     gap: 30px;
     background: rgba(0,119,255,0.4);
 }
-.os-proccess-step.f1{
+.of-proccess-step.f1{
     background: rgb(0,119,255);
 }
-.os-proccess-step.f2{
+.of-proccess-step.f2{
     background: rgba(0,119,255,0.8);
 }
-.os-proccess-step.f3{
+.of-proccess-step.f3{
     background: rgba(0,119,255,0.6);
 }
-.os-proccess-step.f4{
+.of-proccess-step.f4{
     background: rgba(0,119,255,0.4);
 }
-.os-proccess-step.f5{
-    background: rgb(0,119,255);
-}
-.os-proccess-step:hover{
+
+.of-proccess-step:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
-.os-proccess-step-icon{
+.of-proccess-step-icon{
     width: 60px;
     height: 60px;
     object-fit: contain;
 }
-.os-proccess-step-title{
+.of-proccess-step-title{
     font-size: 26px;
     color: white;
 }
-.os-proccess-step-desc{
+.of-proccess-step-desc{
     color: white;
     font-size: 18px;
     text-align: center;
 }
-.os-proccess-bottom{
+.of-proccess-bottom{
     width: 100%;
     padding: var(--global-padding);
     display: flex;
@@ -72,14 +70,14 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.os-proccess-bottom-title{
+.of-proccess-bottom-title{
     font-size: 60px;
     font-weight: bold;
     color: white;
     width: 70%;
     text-align: center;
 }
-.os-proccess-bottom-btn {
+.of-proccess-bottom-btn {
     position: relative;
     overflow: hidden;
     font-weight: 700;
@@ -99,7 +97,7 @@
 }
 
 
-.os-proccess-bottom-btn span {
+.of-proccess-bottom-btn span {
     background: linear-gradient(264.28deg, #6bd0ff -38.2%, #91C8E4 103.12%);
     padding: 10px 20px;
     border-radius: 10px;
@@ -116,7 +114,7 @@
 }
 
 
-.os-proccess-bottom-btn span::after {
+.of-proccess-bottom-btn span::after {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.13) 0px, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
     content: "";
     height: 200%;
@@ -128,7 +126,7 @@
     width: 200%;
 }
 
-.os-proccess-bottom-btn:hover span::after {
+.of-proccess-bottom-btn:hover span::after {
     left: -30%;
     opacity: 1;
     top: -20%;
@@ -137,7 +135,7 @@
     transition-timing-function: linear;
 }
 
-.os-proccess-bottom-desc{
+.of-proccess-bottom-desc{
     width: 90%;
     text-align: center;
     font-size: 30px;
